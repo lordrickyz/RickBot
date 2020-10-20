@@ -1,0 +1,78 @@
+/* class (.) or id (#) */
+body {
+  background-color: #fcaf21; }
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  border-bottom-style: solid;
+  height: 55px; }
+
+.nav-title {
+  display: flex; }
+  .nav-title li {
+    text-align: center;
+    list-style: none; }
+    .nav-title li a {
+      font-size: 25px;
+      font-weight: bold;
+      text-decoration: none;
+      color: black;
+      vertical-align: middle;
+      margin-top: 10px; }
+      .nav-title li a img {
+        margin-top: -5;
+        width: 35px;
+        vertical-align: middle; }
+
+.nav-links {
+  display: flex; }
+  .nav-links #chatbot-link {
+    padding: 0px 20px; }
+    .nav-links #chatbot-link a {
+      text-decoration: none;
+      font-size: 20px;
+      font-weight: bold;
+      color: black; }
+  .nav-links #contact-link {
+    position: relative;
+    padding: 0px 20px; }
+    .nav-links #contact-link a:nth-child(1) {
+      font-weight: bold;
+      color: black;
+      font-size: 20px;
+      text-decoration: none; }
+    .nav-links #contact-link ul {
+      position: absolute;
+      background: white;
+      padding: 15px 22px 20px 26px;
+      margin: 16px 0px 0px -90px;
+      list-style: none;
+      border-bottom-left-radius: 20px;
+      border-bottom-right-radius: 20px;
+      opacity: 0;
+      pointer-events: none;
+      transition: all 0.4s ease;
+      transform: translateY(10px);
+      border-bottom-style: solid;
+      border-left-style: solid;
+      border-right-style: solid; }
+      .nav-links #contact-link ul li {
+        padding: 10px 0px 5px 0px;
+        font-size: 20px; }
+        .nav-links #contact-link ul li img {
+          height: 25px;
+          vertical-align: middle; }
+        .nav-links #contact-link ul li a {
+          vertical-align: middle; }
+        .nav-links #contact-link ul li a:hover {
+          color: orange; }
+
+#contact-link a:focus + ul {
+  opacity: 1;
+  pointer-events: all;
+  transform: translateY(0px); }
+
+/*# sourceMappingURL=landing.css.map */
