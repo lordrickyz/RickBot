@@ -1,6 +1,4 @@
-/* const resumeObj = require('resume') */
-
-export default resume = {
+{
   "$schema": "https://json.schemastore.org/resume",
   "basics": {
     "name": "Ricky Zheng",
