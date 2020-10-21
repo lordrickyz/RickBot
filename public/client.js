@@ -2,6 +2,7 @@
  * Copyright (c) Microsoft Corporation. All rights reserved.
  * Licensed under the MIT License.
  */
+
 var converter = new showdown.Converter();
 converter.setOption('openLinksInNewWindow', true);
 
@@ -146,6 +147,7 @@ var Botkit = {
     },
     connectWebhook: function () {
         var that = this;
+        var connectEvent = 'hello';
         if (Botkit.getCookie('botkit_guid')) {
             that.guid = Botkit.getCookie('botkit_guid');
             connectEvent = 'welcome_back';
@@ -258,7 +260,7 @@ var Botkit = {
         this.deliverMessage({
             type: 'trigger',
             user: this.guid,
-            channel: 'socket',
+            channel: this.options.use_sockets ? 'websocket' : 'webhook',
             script: script,
             thread: thread
         });
@@ -275,7 +277,7 @@ var Botkit = {
         this.deliverMessage({
             type: 'identify',
             user: this.guid,
-            channel: 'socket',
+            channel: this.options.use_sockets ? 'websocket' : 'webhook',
             user_profile: user,
         });
     },

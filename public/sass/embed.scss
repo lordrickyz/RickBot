@@ -8,8 +8,10 @@ $height: 400px;
   bottom: -$height;
   right: 2rem;
 
-  height: $height + 34;
+  height: $height + 70;
   transition: 0.5s ease-in-out bottom;
+
+  width: 450px;
 
   &.active {
     bottom: 0;
@@ -25,6 +27,8 @@ $height: 400px;
     background: #000;
     padding: 0.5rem 1rem;
     color: #FFF;
+    font-family: 'Gotham Rounded', sans-serif;
+    font-size: 25px;
   }
 
 }
