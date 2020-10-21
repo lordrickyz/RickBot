@@ -2,18 +2,12 @@
   "$schema": "https://json.schemastore.org/resume",
   "basics": {
     "name": "Ricky Zheng",
-    "label": "Software Engineer  | Javascript | React.js | Redux.js | Ruby | Ruby on Rails | Python | Node.js | MongoDB",
-    "image": "",
+    "label": "Software Engineer with experiences in Javascript, React.js, Redux.js,  Ruby,  Ruby on Rails, Python3, Node.js, MongoDB and much more",
     "email": "rickyzheng@ymail.com",
-    "phone": "",
-    "url": "",
     "summary": "I am life insurance agent turned software engineer who loves tackling complex problems and someone who always enjoys challenges, teamwork, and surpassing any goals set forth on me or my team. I have experiences in JavaScript, Ruby, Rails, React, Python3, and more. I am adaptable, open-minded, value all learning experiences and eager to expand on what I already know.",
     "location": {
-      "address": "New York, New York",
-      "postalCode": "",
-      "city": "",
-      "countryCode": "US",
-      "region": ""
+      "address": "Brooklyn, New York",
+      "countryCode": "US"
     },
     "profiles": [
       {
@@ -26,30 +20,23 @@
   "work": [
     {
       "name": "Personal Projects",
-      "endDate": "",
-      "highlights": [],
       "position": "Software Engineer",
       "startDate": "2020-03-31",
-      "summary": "GroupRide | MongoDB , Express.js , React , Node.js , Webpack , GIMP |        \t            \nMERN stack application that allows users to schedule and create biking events with safest routes:\n• Utilized React and Redux to dynamically present information according to current state allowing the user to login through modals and interact with event feeds.\n• Lead frontend designs, providing creative and efficient inputs and enabling RESTful calls to be serviced for UI applications supporting data fetching from the client.\n• Incorporated Express.Js to retrieve promises connecting stored data in MongoDB and using React to manage the current state allowing users to retrieve their session to either log in or sign up.\n\nJello | JavaScript , React / Redux , Ruby on Rails(RoR) , PostgreSQL , CSS3,  Webpack |        \nReact and Ruby on Rails Kanban tool; collaboration tool that organizes your projects into boards.\n• Utilized jbuilders to establish connections between Rails and React by querying JSON using AJAX requests to allow middlewares to receive RESTful information to be sent to frontend and processed for rendering.\n•  Integrated React Drag and Drop library to React UI to allow swapping of content from list to another list.\n•  Leveraged BCrypt Hashing to secure user passwords from backend to frontend. Preventing malicious users from accessing actual passwords in the frontend. Session is stored in cookies, but nulls when a user logs out.\n\nBubble Pop | JavaScript, CSS3 , HTML5 , Heroku , Webpack |\nInteractive JavaScript game where users shoot bubbles to match other bubbles until the board is cleared:\n•  Implemented hexagonal collision algorithms in pure JavaScript to allow bubbles to snap onto a relative position on the board after colliding with either the top of the board or another bubble object.\n•  Incorporated HTML5 canvas for UI design of the game and rendition of game mechanics such as the bubble, the launcher, and the board.",
-      "url": ""
+      "summary": "GroupRide | MongoDB , Express.js , React , Node.js , Webpack , GIMP |        \t            \nMERN stack application that allows users to schedule and create biking events with safest routes:\n• Utilized React and Redux to dynamically present information according to current state allowing the user to login through modals and interact with event feeds.\n• Lead frontend designs, providing creative and efficient inputs and enabling RESTful calls to be serviced for UI applications supporting data fetching from the client.\n• Incorporated Express.Js to retrieve promises connecting stored data in MongoDB and using React to manage the current state allowing users to retrieve their session to either log in or sign up.\n\nJello | JavaScript , React / Redux , Ruby on Rails(RoR) , PostgreSQL , CSS3,  Webpack |        \nReact and Ruby on Rails Kanban tool; collaboration tool that organizes your projects into boards.\n• Utilized jbuilders to establish connections between Rails and React by querying JSON using AJAX requests to allow middlewares to receive RESTful information to be sent to frontend and processed for rendering.\n•  Integrated React Drag and Drop library to React UI to allow swapping of content from list to another list.\n•  Leveraged BCrypt Hashing to secure user passwords from backend to frontend. Preventing malicious users from accessing actual passwords in the frontend. Session is stored in cookies, but nulls when a user logs out.\n\nBubble Pop | JavaScript, CSS3 , HTML5 , Heroku , Webpack |\nInteractive JavaScript game where users shoot bubbles to match other bubbles until the board is cleared:\n•  Implemented hexagonal collision algorithms in pure JavaScript to allow bubbles to snap onto a relative position on the board after colliding with either the top of the board or another bubble object.\n•  Incorporated HTML5 canvas for UI design of the game and rendition of game mechanics such as the bubble, the launcher, and the board."
     },
     {
       "name": "World Financial Group (WFG)",
-      "endDate": "2020-03-31",
-      "highlights": [],
       "position": "Licensed Insurance Agent",
       "startDate": "2019-04-30",
-      "summary": "• Built and maintain a client base; keep clients informed about products and services for, but not limited to, life insurance, health insurance, retirement plans and annuities.\n• Built and led training sessions for new onboarding members; teaching best practice of Salesforce and financial training.\n•  Aid the underwriter in assessing risk by evaluating all factors using detailed information from prospective to help minimize loss",
-      "url": ""
+      "endDate": "2020-03-31",
+      "summary": "• Built and maintain a client base; keep clients informed about products and services for, but not limited to, life insurance, health insurance, retirement plans and annuities.\n• Built and led training sessions for new onboarding members; teaching best practice of Salesforce and financial training.\n•  Aid the underwriter in assessing risk by evaluating all factors using detailed information from prospective to help minimize loss"
     },
     {
       "name": "Railcare Health",
-      "endDate": "2019-05-31",
-      "highlights": [],
       "position": "Communications Manager",
       "startDate": "2017-01-31",
-      "summary": "• Assisting members in establishing organizational marketing, branding, and communication plans. Establishing network allowing efficient referrals and volunteer sourcing.\n• Secured proper referrals and documentations for any authorized administration.\n• Ensured activities are under proper protocol and oversee the teamwork and collaboration within a committee.",
-      "url": ""
+      "endDate": "2019-05-31",
+      "summary": "• Assisting members in establishing organizational marketing, branding, and communication plans. Establishing network allowing efficient referrals and volunteer sourcing.\n• Secured proper referrals and documentations for any authorized administration.\n• Ensured activities are under proper protocol and oversee the teamwork and collaboration within a committee."
     }
   ],
   "volunteer": [

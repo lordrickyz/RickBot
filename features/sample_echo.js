@@ -3,14 +3,35 @@
  * Licensed under the MIT License.
  */
 
+/* */
 module.exports = function(controller) {
 
-    controller.hears('sample','message,direct_message', async(bot, message) => {
-        await bot.reply(message, 'I heard a sample message.');
+  controller.on('message,direct_message', async(bot, message) => {
+    await bot.reply(message, {
+      text: "I am afraid I can't answer that for now. Would you like to ask me a different question?", 
+      quick_replies: [
+        {
+          title: "Experiences",
+          payload: "experiences",
+        },
+        {
+          title: "Education",
+          payload: "education",
+        },
+        {
+          title: "Languages",
+          payload: "languages",
+        },
+        {
+          title: "Projects",
+          payload: "projects",
+        },
+        {
+          title: "Contact",
+          payload: "contact",
+        }
+      ],
     });
-
-    controller.on('message,direct_message', async(bot, message) => {
-        await bot.reply(message, `Echo: ${ message.text }`);
-    });
+  });
 
 }
