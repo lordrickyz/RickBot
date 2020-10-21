@@ -1,91 +1,92 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 
-<head>
-  <title>Rick Bot</title>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.10/handlebars.min.js"></script>
-  <script src="https://cdn.rawgit.com/showdownjs/showdown/1.7.4/dist/showdown.min.js"></script>
-  <link rel="stylesheet" href="/css/landing.css" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-</head>
+  <head>
+    <title>Rick Bot</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.10/handlebars.min.js"></script>
+    <script src="https://cdn.rawgit.com/showdownjs/showdown/1.7.4/dist/showdown.min.js"></script>
+    <link rel="stylesheet" href="/css/landing.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
 
-<body style="margin: 0px 0px 0px 0px;">
-  <header>
-    <nav class="nav-left">
-      <ul class="nav-title">
-        <li>
-          <a href="#">
-            <img class="robot-logo" src="images/robot-icon.svg" alt="robot">
-          </a>
-        </li>
-        <li>
-          <a href="#">< RickBot /></a>
-        </li>
-      </ul>
-    </nav>
+  <body style="margin: 0px 0px 0px 0px;">
+    <header>
+      <nav class="nav-left">
+        <ul class="nav-title">
+          <li>
+            <a href="#">
+              <img class="robot-logo" src="images/robot-icon.svg" alt="robot">
+            </a>
+          </li>
+          <li>
+            <a href="#">< RickBot /></a>
+          </li>
+        </ul>
+      </nav>
 
-    <nav class="nav-right">
-      <div class="nav-links">
-        <div id="contact-link">
-          <a href="#">Contact</a>
-          <ul>
-            <li>
-              <a href="https://lordrickyz.github.io/">
-                <img class="port-logo" src="images/portfolio.svg" alt="portfolio">
-                Porfolio</a>
-            </li>
-            <li>
-              <a href="https://www.linkedin.com/in/rickyzhengs/">
-                <img class="link-logo" src="images/linkedin.svg" alt="linkedin">
-                LinkedIn
-              </a>
-            </li>
-            <li>
-              <a href="https://github.com/lordrickyz">
-                <img class="git-logo" src="images/github.svg" alt="github">
-                Github
-              </a>
-            </li>
-          </ul>
-        </div>
-    </nav>
-  </header>
-
-  <section class="content">
-    <div id="content-left">
-      <h3>Relationships <br> start with a <br> conversation.</h3>
-      <h3>☕ Relax, take a break and have chat with me!</h3>
-      <a onclick="Botkit.toggle()">Start Chatting</a>
-    </div>
-
-    <div id="content-right">
-      <img class="content-img"
-        srcset="images/img1.png 480w, images/img1.png 800w" 
-        sizes="(max-width: 600px) 480px,800px"
-        alt="content">
-    </div>
-
-  </section>
-
-  <div id="embedded_messenger">
-    <header id="message_header" onclick="Botkit.toggle()">
-      <div>Chat</div>
+      <nav class="nav-right">
+        <div class="nav-links">
+          <div id="contact-link">
+            <a href="#">Contact</a>
+            <ul>
+              <li>
+                <a href="https://lordrickyz.github.io/">
+                  <img class="port-logo" src="images/portfolio.svg" alt="portfolio">
+                  Porfolio</a>
+              </li>
+              <li>
+                <a href="https://www.linkedin.com/in/rickyzhengs/">
+                  <img class="link-logo" src="images/linkedin.svg" alt="linkedin">
+                  LinkedIn
+                </a>
+              </li>
+              <li>
+                <a href="https://github.com/lordrickyz">
+                  <img class="git-logo" src="images/github.svg" alt="github">
+                  Github
+                </a>
+              </li>
+            </ul>
+          </div>
+      </nav>
     </header>
-    <iframe id="botkit_client" src="./chat.html"></iframe>
-  </div>
-  <script src="./embed.js"></script>
-  <script>
-    var options = {};
-    Botkit.boot(options);
-  </script>
-  <link rel="stylesheet" href="./css/embed.css" />
 
-  <footer>
-    <svg viewBox="0 -20 700 110" width="100%" height="110" preserveAspectRatio="none">
-      <path transform="translate(0, -20)" d="M0,10 c80,-22 240,0 350,18 c90,17 260,7.5 350,-20 v50 h-700"
-        fill="rgb(0, 0, 0)" />
-      <path d="M0,10 c80,-18 230,-12 350,7 c80,13 260,17 350,-5 v100 h-700z" fill="rgb(201, 128, 19)" />
-    </svg>
-  </footer>
-</body>
+    <section class="content">
+      <div id="content-left">
+        <h3>Relationships <br> start with a <br> conversation.</h3>
+        <h3>☕ Relax, take a break and have chat with me!</h3>
+        <a onclick="Botkit.toggle()">Start Chatting</a>
+      </div>
+
+      <div id="content-right">
+        <img class="content-img"
+          srcset="images/img1.png 480w, images/img1.png 800w" 
+          sizes="(max-width: 600px) 480px,800px"
+          alt="content">
+      </div>
+
+    </section>
+
+    <div id="embedded_messenger">
+      <header id="message_header" onclick="Botkit.toggle()">
+        <div>Chat</div>
+      </header>
+      <iframe id="botkit_client" src="./chat.html"></iframe>
+    </div>
+    <script src="./embed.js"></script>
+    <script>
+      var options = {};
+      Botkit.boot(options);
+    </script>
+    <link rel="stylesheet" href="./css/embed.css" />
+
+    <footer>
+      <svg viewBox="0 -20 700 110" width="100%" height="110" preserveAspectRatio="none">
+        <path transform="translate(0, -20)" d="M0,10 c80,-22 240,0 350,18 c90,17 260,7.5 350,-20 v50 h-700"
+          fill="rgb(0, 0, 0)" />
+        <path d="M0,10 c80,-18 230,-12 350,7 c80,13 260,17 350,-5 v100 h-700z" fill="rgb(201, 128, 19)" />
+      </svg>
+    </footer>
+  </body>
 
 </html>
