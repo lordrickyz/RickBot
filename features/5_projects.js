@@ -21,7 +21,7 @@ module.exports = function(controller) {
                   text: `<a href="https://jelloz.herokuapp.com/#/">Jello</a>: React and Ruby on Rails Kanban tool; collaboration tool that organizes your projects into boards. Languages and frameworks include JavaScript, React, Redux, Ruby on Rails(RoR), PostgreSQL, CSS3, Webpack.`
               });
               await bot.reply(message, {
-                  text: `<a href="https://lordrickyz.github.io/bubble-pop/">Bubble Pop</a>: Interactive JavaScript game where users shoot bubbles to match other bubbles until the board is cleared. Impleted collision detection and incorporated JavaScript, CSS3, HTML5, Heroku, Webpack.`
+                  text: `<a href="https://lordrickyz.github.io/bubble-pop/">Bubble Pop</a>: Interactive JavaScript game where users shoot bubbles to match other bubbles until the board is cleared. Implemented collision detection and incorporated JavaScript, CSS3, HTML5, Heroku, Webpack.`
               });
 
               await bot.reply(message, {
