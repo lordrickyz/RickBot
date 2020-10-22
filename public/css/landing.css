@@ -78,7 +78,7 @@ header {
   transform: translateY(0px); }
 
 .content {
-  display: table;
+  display: flexbox;
   padding: 20px 10% 20px 15%;
   margin: auto; }
 
@@ -150,10 +150,14 @@ header {
     -moz-animation: fadeIn ease 5s; }
 
 #content-right {
-  float: right; }
-  #content-right img {
-    width: 100%;
-    height: auto; }
+  box-sizing: border-box; }
+
+#content-right > img {
+  max-width: 100%;
+  height: auto;
+  box-sizing: border-box;
+  vertical-align: middle;
+  border-style: none; }
 
 .robot-logo {
   width: auto;
