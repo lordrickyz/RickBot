@@ -6,6 +6,7 @@
     <script src="https://cdn.rawgit.com/showdownjs/showdown/1.7.4/dist/showdown.min.js"></script>
     <link rel="stylesheet" href="/css/landing.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="/dropdown.js"></script>
   </head>
 
   <body style="margin: 0px 0px 0px 0px;">
@@ -24,30 +25,22 @@
       </nav>
 
       <nav class="nav-right">
-        <div class="nav-links">
-          <div id="contact-link">
-            <a href="#">Contact</a>
-            <ul>
-              <li>
-                <a href="https://lordrickyz.github.io/">
-                  <img class="port-logo" src="images/portfolio.svg" alt="portfolio">
-                  Porfolio</a>
-              </li>
-              <li>
-                <a href="https://www.linkedin.com/in/rickyzhengs/">
-                  <img class="link-logo" src="images/linkedin.svg" alt="linkedin">
-                  LinkedIn
-                </a>
-              </li>
-              <li>
-                <a href="https://github.com/lordrickyz">
-                  <img class="git-logo" src="images/github.svg" alt="github">
-                  Github
-                </a>
-              </li>
-            </ul>
+        <div class="contact-link">
+          <button onclick="myFunction()" class="dropbtn">Contact</button>
+          <div id="myDropdown" class="dropdown-content">
+            <a href="https://lordrickyz.github.io/" target="_blank">
+              <img class="port-logo" style="height: 25px;" src="images/portfolio.svg" alt="portfolio">
+              Porfolio</a>
+            <a href="https://www.linkedin.com/in/rickyzhengs/" target="_blank">
+              <img class="link-logo" style="height: 25px;" src="images/linkedin.svg" alt="linkedin">
+              LinkedIn
+            </a>
+            <a href="https://github.com/lordrickyz" target="_blank">
+              <img class="git-logo" style="height: 25px;" src="images/github.svg" alt="github">
+              Github
+            </a>
           </div>
-      </nav>
+        </div>
     </header>
 
     <section class="content">
@@ -58,10 +51,7 @@
       </div>
 
       <div id="content-right">
-        <img class="content-img"
-          srcset="images/img1.png 480w, images/img1.png 800w" 
-          sizes="(max-width: 600px) 480px,800px"
-          alt="content">
+        <img class="content-img" src="images/img1.png" alt="content">
       </div>
 
     </section>
